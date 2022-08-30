@@ -1,0 +1,190 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-bold";
+}
+
+p  {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    text-align: left;
+    padding-bottom: 9%;
+ }
+ 
+ /*container section*/
+
+ .container-fluid {
+     padding: 7% 15%;
+ }
+
+ #title .container-fluid {
+    padding: 3% 15% 7%;
+ }
+
+ /*section*/
+
+ .colored-section {
+    background-color: #ff4c68; 
+    color: white;
+ }
+
+ .white-section {
+    background-color: #ffff;
+ }
+
+/* Navigation bar  */
+
+.navbar {
+    padding: 0 0 4.5rem; 
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    transform: rotate(20deg);
+    padding-top: 1rem;
+    max-width: 100;
+    height: auto;
+    position: absolute;
+    right: 30%;
+}
+
+/* feature section */
+
+#features  {
+    position: relative;
+ }
+
+ .feature-title {
+    font-size: 1.5rem;
+ }
+ 
+ .feature-box {
+     padding: 5%;
+ }
+ 
+
+#features {
+    font-family: "Montserrat-bold";
+    padding-right: 1.5rem;
+}
+
+
+.fa-solid {
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial section*/
+
+#testimonials {
+    background-color:  #ef8172;
+}
+
+.testimonial-text {
+    font-size:3rem;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color:#ef8172 ;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer */
+
+
+#footer {
+    background-color: #ffff;
+    
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align:center;
+    }
+    
+    .title-image {
+        position:static;
+        transform: rotate(0);
+    }
+}
