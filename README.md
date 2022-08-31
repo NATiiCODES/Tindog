@@ -1,2 +1,2 @@
 # Tindog
- HTML, CSS & Bootstrap. FrontEnd Only. Course The Complete 2022 Web Development Bootcamp. 
+ HTML, CSS & Bootstrap. FrontEnd Only. Course The Complete 2022 Web Development Bootcamp. By Dr. Agnela Yu. 
